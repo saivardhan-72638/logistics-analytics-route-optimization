@@ -1,0 +1,15 @@
+{
+  "method": "OR-Tools",
+  "route_indices": [
+    0,
+    1,
+    2,
+    4,
+    7,
+    3,
+    5,
+    6,
+    0
+  ],
+  "estimated_haversine_km": 5280.08
+}

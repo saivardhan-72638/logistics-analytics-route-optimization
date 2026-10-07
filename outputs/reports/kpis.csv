@@ -1,0 +1,2 @@
+total_delivered_orders,on_time_delivery_rate_pct,late_delivery_rate_pct,average_delivery_days,median_delivery_days,average_freight_per_order,average_order_value,freight_to_order_value_pct,average_review_score
+96470,91.89,8.11,12.56,10.22,22.79,137.04,30.84,4.16

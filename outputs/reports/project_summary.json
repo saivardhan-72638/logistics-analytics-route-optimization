@@ -1,0 +1,54 @@
+{
+  "mode": "real-data",
+  "kpis": {
+    "total_delivered_orders": 96470,
+    "on_time_delivery_rate_pct": 91.89,
+    "late_delivery_rate_pct": 8.11,
+    "average_delivery_days": 12.56,
+    "median_delivery_days": 10.22,
+    "average_freight_per_order": 22.79,
+    "average_order_value": 137.04,
+    "freight_to_order_value_pct": 30.84,
+    "average_review_score": 4.16
+  },
+  "model_results": {
+    "regression": {
+      "mae_days": 6.052,
+      "rmse_days": 7.716,
+      "train_rows": 77176,
+      "test_rows": 19294
+    },
+    "classification": {
+      "accuracy": 0.859,
+      "precision": 0.052,
+      "recall": 0.096,
+      "f1": 0.067,
+      "roc_auc": 0.474
+    }
+  },
+  "clustering": {
+    "clusters": 4,
+    "silhouette_score": 0.407
+  },
+  "route_optimization": {
+    "method": "OR-Tools",
+    "route_indices": [
+      0,
+      1,
+      2,
+      4,
+      7,
+      3,
+      5,
+      6,
+      0
+    ],
+    "estimated_haversine_km": 5280.08
+  },
+  "figures": [
+    "C:\\D\\Projects\\logistics_analytics_project\\outputs\\figures\\delivery_time_distribution.png",
+    "C:\\D\\Projects\\logistics_analytics_project\\outputs\\figures\\freight_vs_order_value.png",
+    "C:\\D\\Projects\\logistics_analytics_project\\outputs\\figures\\late_rate_by_state.png",
+    "C:\\D\\Projects\\logistics_analytics_project\\outputs\\figures\\monthly_late_rate.png"
+  ]
+}
